@@ -1,0 +1,55 @@
+.navbar-seconde{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px gray solid;
+}
+
+.navbar-seconde ul{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-seconde ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-seconde ul li:hover{
+    transition: all 0.5s;
+    border-bottom: 1px solid red;
+}
+
+.navbar-seconde ul li a{
+    font-family: estedad-light;
+    text-decoration: none;
+    color: #62666d;
+    font-size: 14px;
+}
+
+.navbar-seconde ul li a i{
+    color: #62666d;
+}
+
+.navbar-seconde ul li.text-black a{
+    font-family: estedad-regular;
+    color: #000;
+}
+
+.choose-city{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.choose-city a{
+    font-family: estedad-light;
+    text-decoration: none;
+    color: #62666d;
+    margin-left: 30px;
+}

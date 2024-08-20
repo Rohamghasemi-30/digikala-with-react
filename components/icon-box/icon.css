@@ -1,0 +1,36 @@
+.icon-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-box .icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box .icon img{
+    width: 52px;
+    height: 52px;
+}
+
+.icon-box .icon a{
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-box .icon a p{
+    color: #23254e;
+    font-family: estedad-extraLight;
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+}

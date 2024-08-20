@@ -1,0 +1,38 @@
+.box-story{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.story{
+    width: 84px;
+    height: 140px;
+
+}
+
+.story a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #23254e;
+    font-family: estedad-extraLight;
+    
+}
+
+.story a img{
+    width: 84px;
+    height: 84px;
+    border-radius: 50px;
+    border: 1px solid rgb(153, 0, 255);
+    padding: 3px;
+}
+
+.story a p{
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+}

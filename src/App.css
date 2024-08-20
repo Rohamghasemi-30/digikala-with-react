@@ -1,0 +1,14 @@
+@font-face{
+  src: url(../public/fonts/Estedad-Regular.ttf);
+  font-family: estedad-regular;
+}
+
+@font-face{
+  src: url(../public/fonts/Estedad-Light.ttf);
+  font-family: estedad-light;
+}
+
+@font-face{
+  src: url(../public/fonts/Estedad-ExtraLight.ttf);
+  font-family: estedad-extraLight;
+}
